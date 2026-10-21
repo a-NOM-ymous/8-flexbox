@@ -1,24 +1,55 @@
 html {
     background-color: rgb(105, 73, 7);
-    color: white;
+    color: beige;
+    font-family: "classic-comic", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
-.site-links {
-    background-color: beige;
-    list-style-type: none;
-    padding: 0;
+.site-header {
+    background-color: rgb(168, 150, 137);
+    padding: 0.25px 15px;
+}
+
+.site-side {
+    background: white;
+    color: rgb(168, 150, 137);
+    flex: 0 0 250px;
+    padding: 15px;
+}
+
+.site-main {
+    background: rgb(168, 187, 139);
+    padding: 15px;
+}
+
+.site-foot {
+    background: burlywood;
+}
+
+.wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: rgb(72, 43, 3);
+}
+
+.side {
     display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.header-links {
+    list-style-type: none;
+    display: flex;
+    padding: 15px;
+    gap: 20px;
 }
 
 .links {
-    background-color: rgb(150, 132, 109);
-    color: black;
-    margin: 0 20px;
-    padding: 15px;
     text-decoration: none;
-    display: inline-block;
 }
 
-.links:hover {
-    background-color: rgba(107, 71, 24, 0.832);
+.link:hover {
+    text-decoration: underline;
 }
